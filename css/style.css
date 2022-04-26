@@ -1755,10 +1755,13 @@ h3 {
 /* line 40, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_about.scss */
 
 .contact_rsvp {
+    /* background-image: url(../img/banner/contact.png); */
     padding: 184px 0;
-    background-image: url(../img/banner/contact.png);
+    background-image: url(../img/henrique_logo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
+    background-position-y: center;
     position: relative;
     z-index: 2;
 }
@@ -3766,7 +3769,8 @@ h3 {
 /* line 4, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_bradcam.scss */
 
 .breadcam_bg_2 {
-    background-image: url(../img/banner/bradcam_2.png);
+    background-image: url('../img/gallery/henrique (4).jpeg');
+    /* background-image: url(../img/banner/bradcam_2.png); */
 }
 
 
@@ -3788,7 +3792,7 @@ h3 {
 
 .bradcam_area {
     background-size: cover;
-    background-position: center center;
+    /* background-position: center center; */
     padding: 250px 0 178px 0;
     background-repeat: no-repeat;
     position: relative;
@@ -8932,6 +8936,15 @@ h6 {
 .blog_part .single-home-blog .card ul li span {
     margin-right: 10px;
     font-size: 12px;
+}
+
+.thumb img {
+    height: 20rem;
+}
+
+.signature img {
+    width: 143px;
+    height: 60px;
 }
 
 
